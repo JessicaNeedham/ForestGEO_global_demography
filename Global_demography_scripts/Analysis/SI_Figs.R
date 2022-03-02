@@ -647,7 +647,7 @@ points(xs, ys, type = 'l', col = cols[8],  lty = 1)
 mtext('h)', side = 3, line = 0.2, adj = 0.05)
 
 mtext('Demographic Composition', side = 1, line = 1, cex = 1.2, outer=TRUE)
-mtext('AGB (kg C m2)', side = 2, line = 1, cex = 1.2, outer=TRUE)
+mtext('AGB (Mg ha-1)', side = 2, line = 1, cex = 1.2, outer=TRUE)
 
 dev.off()
 ##############################################

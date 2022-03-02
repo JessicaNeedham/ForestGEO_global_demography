@@ -436,7 +436,7 @@ par(mfrow = c(2,3), mar = c(4,4,3,1))
 plot(ch, AGBs, xlab = NA, ylab = NA, 
      pch = 16, col = 'deepskyblue3')
 mtext('Demographic Diversity', side = 1, line = 2.5, cex = 0.8)
-mtext('AGB (kg C ha-1)', side = 2, line = 2.5, cex = 0.8)
+mtext('AGB (Mg ha-1)', side = 2, line = 2.5, cex = 0.8)
 mtext('(a)', side = 3, line = 0.2, adj = 0.05)
 m5 <- lm(AGBs~ch)
 p5 <- lmp(m5)
